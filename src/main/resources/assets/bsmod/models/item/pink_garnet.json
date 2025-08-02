@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generator",
+  "textures": {
+    "layer0": "bsmod:item/pink_garnet"
+  }
+}

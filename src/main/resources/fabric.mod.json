@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bsmod",
+	"version": "${version}",
+	"name": "bsmod",
+	"description": "mc mod",
+	"authors": [
+		"Glenn"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bsmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.glenn.mod.Bsmod"
+		],
+		"fabric-datagen": [
+			"net.glenn.mod.BsmodDataGenerator"
+		],
+		"client": [
+			"net.glenn.mod.bsmodClient"
+		]
+	},
+	"mixins": [
+		"bsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,4 +1,7 @@
 {
   "item.bsmod.pink_garnet": "Pink Garnet",
-  "item.bsmod.raw_pink_garnet": "Raw Pink Garnet"
+  "item.bsmod.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.bsmod.pink_garnet_block": "Block of Pink Garnet",
+  "block.bsmod.raw_pink_garnet_block": "Block of Raw Pink Garnet"
 }
